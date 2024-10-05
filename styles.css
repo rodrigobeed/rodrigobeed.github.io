@@ -1,0 +1,11 @@
+h1 {
+    color: hsl(155, 66%, 50%);
+}
+
+body {
+    background-color: cadetblue;
+}
+
+#blood {
+    width: 600px;
+}
