@@ -9,3 +9,39 @@ body {
 #blood {
     width: 600px;
 }
+.a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.b{
+    margin: 25px;
+
+}
+nav{
+    position: fixed;
+    background-color: brown;
+
+    width: 100%;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+.z{
+    margin: 10px;
+}
+.z:hover{
+    font-size: 20px;
+}
+.z:visited{
+    color: aqua;
+}
+.y{
+    display: block;
+    height: 20px;
+}
