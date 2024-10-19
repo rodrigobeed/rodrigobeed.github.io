@@ -45,3 +45,8 @@ nav{
     display: block;
     height: 20px;
 }
+.just-center{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}

@@ -7,13 +7,53 @@
     <title>Blood Strike</title>
     <link href="styles.css" rel="stylesheet" type="text/css">
     <script src="index.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <body>
-    <nav>
-        <a class="z" href="index.html"> texto 1 </a>
-        <a class="z" href="index2.html"> texto 2 </a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index2.html">texto 2</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
     </nav>
+
     <div class="y"></div>
     <div class="a">
         <h1>Blood Strike</h1>
@@ -22,8 +62,16 @@
         <p>te permite formar equipos y jugar en cooperativo</p>
         <img src="blod strike.jpeg" id="blood">
     </div>
-    
-    <div class="a b">  
+    <div class="container">
+        <div class="col-md_6">
+            <div class="just-center">
+                <button type="button" class="btn btn-primary" onclick="k()">Primary</button>
+                <button type="button" class="btn btn-success" onclick="s()">Success</button>
+                <button type="button" class="btn btn-danger" onclick="t()">Danger</button>
+            </div>
+        </div>
+    </div>
+    <div class="a b">
         <button onclick="strike()">juega ya q esperas</button>
     </div>
 

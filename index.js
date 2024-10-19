@@ -6,3 +6,12 @@ function strike() {
 
 
 }
+function k(){
+    alert("unete a esta experiencia")
+}
+function s(){
+    alert("un mundo de entretenimiento")
+}
+function t(){
+    alert("!CUIDADO¡")
+}
